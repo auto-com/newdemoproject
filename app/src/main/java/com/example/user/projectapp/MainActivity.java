@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         ButterKnife.bind(this);
-
-
         //test App
         //test
         //test demo
@@ -40,12 +38,10 @@ public class MainActivity extends AppCompatActivity {
         //test
         //testdemo
         //tet
-
+        //test
     }
-
     @OnClick(R.id.submit_bt)
     public void submit(){
-
         PackageManager pm=getPackageManager();
         try {
             Intent waIntent = new Intent(Intent.ACTION_SEND);
