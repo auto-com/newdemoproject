@@ -46,13 +46,14 @@
         />
 
     <Button
-        android:id="@+id/Cacel_bt"
+        android:id="@+id/Cancel_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:text="Cacel"
+        android:text="Cancel"
         android:layout_below="@+id/submit_bt"
+
         />
 
 </RelativeLayout>

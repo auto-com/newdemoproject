@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://E:\todaybackup\aug2019\New folder\28-8-2019\demopro\ProjectApp.iml" filepath="E:\todaybackup\aug2019\New folder\28-8-2019\demopro\ProjectApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://E:\todaybackup\aug2019\New folder\28-8-2019\demopro\app\app.iml" filepath="E:\todaybackup\aug2019\New folder\28-8-2019\demopro\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/demopro.iml" filepath="$PROJECT_DIR$/.idea/demopro.iml" />
     </modules>
   </component>
