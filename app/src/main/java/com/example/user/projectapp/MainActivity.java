@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.submit_bt)
     Button submit_bt;
 
+   /* @BindView(R.id.Cancel_bt)
+    Button Cancel_bt;*/
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,5 +65,10 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "WhatsApp not Installed", Toast.LENGTH_SHORT)
                     .show();
         }
+    }
+    @OnClick(R.id.Cancel_bt)
+    public void cancel()
+    {
+
     }
 }
