@@ -15,57 +15,5 @@
         android:gravity="left"
         android:layout_margin="10dp"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/address_et"
-        android:hint="address"
-        android:inputType="text"
-        android:gravity="left"
-        android:layout_margin="10dp"
-        android:layout_below="@+id/Contactno_et"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Contactno_et"
-        android:hint="Contact No"
-        android:gravity="left"
-        android:inputType="number"
-        android:layout_margin="10dp"
-        android:layout_below="@+id/name_et"/>
-
-    <Button
-        android:id="@+id/submit_bt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:text="submit"
-        android:layout_below="@+id/address_et"
-        />
-
-    <Button
-        android:id="@+id/Cancel_bt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:text="Cancel"
-        android:layout_below="@+id/submit_bt"
-
-        />
-
-    <Button
-        android:layout_below="@+id/Cancel_bt"
-        android:id="@+id/Cancel_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:text="Dismiss"
-       
-
-        />
 
 </RelativeLayout>
